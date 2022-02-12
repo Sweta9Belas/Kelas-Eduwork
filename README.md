@@ -1,2 +1,3 @@
-# Kelas-Eduwork
-Repo khusus kursus eduwork
+# Kursus-Eduwork
+Kumpulan tugas Kursus Eduwork
+
