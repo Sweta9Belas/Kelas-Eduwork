@@ -4,74 +4,97 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Task HTML</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <title>Materi HTML</title>
 </head>
 <body>
-   <h1>My Portfolio</h1>
-   <hr />
-   <h2>Biografi</h2>
-   <p>Perkenalkan nama saya <strong>Gde Nanda</strong>. <br> Saat ini saya sedang berkuliah di <strong>IAHN Gde Pudja Mataram</strong>.
-   <br> Keseharian saya saat ini adalah mengikuti Kursus Eduwork dan sedang menyusun skripsi.</p>
-   <p>Saya berharap bisa menjadi seorang Fullstack Web Developer. Saya melihat programmer seperti seorang pesulap karena menciptakan suatu aplikasi dari deretan perintah yang merupakan kumpulan simbol dan teks.</p>
-   <h2>Skills</h2>
-   <p>Saya belum memiliki kemampuan koding yang ahli atau Profesional di bidang koding. Tetapi saya pernah belajar beberapa bahasa pemrograman secara dasar saja, yaitu:</p>
-   <ul>
-      <li>C</li>
-      <li>C++</li>
-      <li>Java</li>
-      <li>Python</li>
-      <li>PHP</li>
-      <li>HTML & CSS (saya masih bingung apakah ini bahasa pemrograman atau tidak)</li>
-      <li>Javascript</li>
-   </ul>
+   <div class="header">
+      <h1>Portofolio</h1>
+         <div class="nav">
+            <a href="">Home</a>
+            <a href="">Galeri</a>
+            <a href="">Kontak</a>
+            <a href="">Tentang Saya</a>
+         </div>
+   </div>
+   
+   <div class="cover"></div>
 
-   <h2>Education</h2>
-   <table border="2px" cellspacing="2" cellpadding="3">
-      <tr>
-         <th>No.</th>
-         <th>Tingkatan</th>
-         <th>Nama Sekolah</th>
-         <th>Tahun</th>
-      </tr>
-      <tr>
-         <td>1</td>
-         <td>TK</td>
-         <td>TK Dekat Rumah</td>
-         <td>2000</td>
-      </tr>
-      <tr>
-         <td>2</td>
-         <td>SD</td>
-         <td>SD Dekat Sekolah</td>
-         <td>2009</td>
-      </tr>
-      <tr>
-         <td>3</td>
-         <td>SMP</td>
-         <td>SMP Dekat Sekolah</td>
-         <td>2015</td>
-      </tr>
-      <tr>
-         <td>4</td>
-         <td>SMA</td>
-         <td>SMA Dekat Sekolah</td>
-         <td>2019</td>
-      </tr>
-   </table>
-   <h2>My Hobby</h2>
-   <ol>
-      <li>Olahraga</li>
-      <li>Baca Buku</li>
-      <li>Koding</li>
-   </ol>
-   <h2>Contact Me</h2>
-   <form action="/">
-      <label for="fname">First Name:</label>
-      <input type="text" id ="fname" name="fname" /><br/>
-      <br>
-      <label for="lname">Last Name:</label>
-      <input type="text" id="lname" name="lname" /><br/>
-      <button type="submit">submit</button>
-   </form>
+   <div class="content cf">
+      <div class="main"> 
+         <h2>Biografi</h2>
+            <p class="paragraf">Perkenalkan nama saya <strong>Gde Nanda</strong>. <br> Saat ini saya sedang berkuliah di <strong>IAHN Gde Pudja Mataram</strong>.
+            <br> Keseharian saya saat ini adalah mengikuti Kursus Eduwork dan sedang menyusun skripsi.</p.>
+            <p>Saya berharap bisa menjadi seorang Fullstack Web Developer. Saya melihat programmer seperti seorang pesulap karena menciptakan suatu aplikasi dari deretan perintah yang merupakan kumpulan simbol dan teks.</p>
+         <h2>Skills</h2>
+            <p>Saya belum memiliki kemampuan koding yang ahli atau Profesional di   bidang koding. Tetapi saya pernah belajar beberapa bahasa pemrograman secara dasar saja, yaitu:</p>
+         <ul>
+            <li>C</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>PHP</li>
+            <li>HTML & CSS (saya masih bingung apakah ini bahasa pemrograman atau tidak)</li>
+            <li>Javascript</li>
+         </ul>
+      </div>
+
+      <div class="aside">
+         <article>
+            <h2>Education</h2>
+               <table class="tabel" >
+                  <tr>
+                     <th>No.</th>
+                     <th>Tingkatan</th>
+                     <th>Nama Sekolah</th>
+                     <th>Tahun</th>
+                  </tr>
+                  <tr>
+                     <td>1</td>
+                     <td>TK</td>
+                     <td>TK Dekat Rumah</td>
+                     <td>2000</td>
+                  </tr>
+                  <tr>
+                     <td>2</td>
+                     <td>SD</td>
+                     <td>SD Dekat Sekolah</td>
+                     <td>2009</td>
+                  </tr>
+                  <tr>
+                     <td>3</td>
+                     <td>SMP</td>
+                     <td>SMP Dekat Sekolah</td>
+                     <td>2015</td>
+                  </tr>
+                  <tr>
+                     <td>4</td>
+                     <td>SMA</td>
+                     <td>SMA Dekat Sekolah</td>
+                     <td>2019</td>
+                  </tr>
+               </table>
+            <h2>My Hobby</h2>
+               <ol>
+                  <li>Olahraga</li>
+                  <li>Baca Buku</li>
+                  <li>Koding</li>
+               </ol>
+         </article>
+      </div>
+   </div>
+   
+   <footer>
+      <h2>Contact Me</h2>
+         <form action="/">
+            <label for="fname">First Name:</label>
+            <input type="text" id ="fname" name="fname" /><br/>
+            <br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" /><br/>
+            <button type="submit">submit</button>
+            <div class="copyright">Copyleft by @Nanda19</div>
+         </form>
+   </footer>
 </body>
 </html>
