@@ -1,164 +1,20 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl,dt,dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-   margin: 0;
-   padding: 0;
-   border: 0;
-   font-size: 100%;
-   font: inherit;
-   vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-   display: block;
-}
-
 body {
-   line-height: 1;
+  min-height: 100px;
 }
 
-ol, ul {
-   list-style: none;
+.biografi {
+  padding-top: 2rem;
+  background-color: aqua;
 }
 
-blockquote, q {
-   quotes: none;
+.jumbotron {
+  padding-top: 2rem;
+  background-color: aqua;
+}
+footer {
+  padding-top: 2rem;
+  /* background-color: aqua; */
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-   content: '';
-   content: none;
-}
-
-table {
-   border-collapse: collapse;
-   border-spacing: 0;
-}
-
-
-.cf:before,
-.cf:after {
-   content: " ";
-   /* 1 */
-   display: table;
-   /* 2 */
-}
-
-.cf:after {
-   clear: both;
-}
-
-.cf {
-   *zoom: 1;
-}
-
-body{
-   font-family:"Times New Roman", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   font-size: 16px;
-   background-color: white;
-   margin:auto;
-   padding:5px;
-   width: 600px;
-   text-align: justify;
-   background-image:url(image/bg2.png);
-}
-
-.header{
-   font-size: 12px;
-   font-variant: small-caps;
-   font-weight: bold;
-   background-color: aqua;
-   text-align: center;
-   width: 600px;
-   height: 60px;
-   padding-top: 10px;
-   padding-bottom: 5px;
-   line-height: 32px;
-}
-
-.header h1{
-   font-size: 32px;
-}
-
-.nav{
-   overflow: hidden;
-   /* padding-top: 12px; */
-}
-
-.nav a{
-   color: black;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
-   font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.nav a:hover {
-   background-color: red;
-   color: black;
-}
-
-/* Add a color to the active/current link */
-.nav a.active {
-   background-color: #04AA6D;
-   color: white;
-}
-
-.cover{
-   width: 600px;
-   height: 250px;
-   background-image: url(image/cover1.jpg);
-   background-repeat: no-repeat;
-   background-position: 0 -50px;
-}
-
-.main{
-   background-color: white;
-   width: 350px;
-   height: 400px;
-   float: left;
-}
-
-.aside{
-   background-color: white;
-   float: right;
-   width: 225px;
-   height: 400px;
-   line-height: 20px;
-}
-
-h2{
-   font-size: 20px;
-   font-variant: small-caps;
-   font-weight: bold;
-   line-height: 24px;
-}
-
-table, th, td {
-   border: 3px solid;
-   text-align: justify;
-}
-
-footer{
-   width: 600px;
-   height: 140px;
-   background-color: aqua;
-   margin: auto;
-   text-align: center;
-}
-
-form{
-   line-height: 3px;
-}
-
-.copyright{
-   line-height: 50px;
+footer a:hover {
 }
